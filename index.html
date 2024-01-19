@@ -10,19 +10,25 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/fec0dd4499.js" crossorigin="anonymous"></script>
     <title>Portifólio</title>
 </head>
 <body>
-    <header>
-        <div class="logo">CS</div>
+    <header class="header">
+        <a href="#home">
+            <div class="logo">CS</div>
+        </a>
         <nav>
             <ul id="links">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
+                <li><a href="#about">Skills</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
+        </nav>
+        <nav id="menu-bar">
+            <i class="fa-solid fa-bars"></i>
         </nav>
     </header>
 
@@ -32,9 +38,9 @@
                     <span>Olá, Me chamo </span><br>
                     <h1>Cristhian Silveira</h1>
                     <span id="profission">Desenvolvedor Web</span><br>
-                    <button id="btn">FALE COMIGO</button>
+                    <a href="#contact"><button id="btn">FALE COMIGO</button></a>
             </div>
-            <img src="img/images.jpg" alt="">
+            <img src="img/title.svg" alt="">
         </section>
 
 
@@ -66,12 +72,12 @@
                         <span>React</span>
                     </div>
                     <div class="box-skils">
-                        <img src="" alt="">
-                        <span>HTML</span>
+                        <i class="fa-brands fa-php"></i>
+                        <span>PHP</span>
                     </div>
                     <div class="box-skils">
-                        <img src="" alt="">
-                        <span>HTML</span>
+                        <i class="fa-brands fa-git"></i>
+                        <span>Git</span>
                     </div>
                 </div>
             </div>
@@ -85,42 +91,60 @@
             <h2>Projetos</h2>
             <div id="container-projects">
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript</span>
                 </div>
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript, reat ,php java, react react react react</span>
                 </div>
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript</span>
                 </div>
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript</span>
                 </div>
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript</span>
                 </div>
                 <div class="box-projects">
-                    <span>teste</span>
+                    <img src="img/images.jpg" alt="">
+                    <h3>Calculadora</h3>
+                    <span>Criada com HTML, CSS e JavaScript</span>
                 </div>
             </div>
         </section>
 
 
         <section id="contact">
-            <h2>Contatos</h2>
+            <h2>Contato</h2>
             <div id="container-contacts">
                 <div class="redes">
                     <i class="fa-brands fa-whatsapp"></i>
                 </div>
-                <div class="redes">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-                <div class="redes">
-                    <i class="fa-brands fa-github"></i>
-                </div>
-                <div class="redes">
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
+                <a href="mailto:cristhianmantenha60@gmail.com">
+                    <div class="redes">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </a>
+                <a href="https://github.com/CristhianSilveira" target="_blank">
+                    <div class="redes">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/cristhiansilveira/" target="_blank">
+                    <div class="redes">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </a>
             </div>
 
         </section>
