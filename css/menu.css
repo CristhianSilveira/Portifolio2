@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151515;
+    padding: 0 100px;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed
+}
+.logo{
+    font-size: 2rem;
+}
+.logo::before{
+    content: '< ';
+    color: red;
+}
+.logo::after{
+    content: ' />';
+    color: red;
+}
+#links{
+    display: flex;
+    gap: 30px;
+}
+#links li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+#links a{
+    color: white;
+    transition: color 0.8s;
+}
+#links a:hover{
+    color: red;
+}
