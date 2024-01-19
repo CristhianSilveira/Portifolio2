@@ -1,0 +1,43 @@
+@media (min-width: 0px) and (max-width: 768px){
+    .header{
+        padding: 0;
+        justify-content: space-around;
+    }
+    #menu-bar{
+        display: block;
+    }
+    #links{
+        display: none;
+    }
+    
+    #home{
+        flex-direction: column;
+        gap: 60px;
+        padding: 50px;
+        height: auto;
+    }
+    .profile{
+        margin: auto;
+    }
+    
+    #about, #container-contacts{
+        flex-direction: column;
+    }
+    .sobre, .skils{
+        width: 100%;
+        padding: 40px 30px;
+        border: none;
+    }
+    #projects, #contact{
+        padding: 60px 60px;
+    }
+
+    .rodape{
+        padding: 20px;
+    }
+    .rodape span{
+        font-size: 1rem;
+    }
+
+   
+}

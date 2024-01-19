@@ -1,0 +1,30 @@
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+#home img{
+    border-radius: 50%;
+}
+.profile{
+    font-size: 2.5rem;
+    color: white;
+}
+.profile #profission{
+    color: red;
+}
+.profile #btn{
+    margin-top: 30px;
+    background: transparent;
+    padding: 10px;
+    color: red;
+    border: 1px solid red;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 170px;
+}
+.profile #btn:hover{
+    background-color: red;
+    color: white;
+}

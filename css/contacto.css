@@ -1,0 +1,34 @@
+#contact{
+    padding: 60px 100px;
+    background-color: #141414;
+    padding-bottom: 210px;
+}
+#contact h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 60px 0;
+}
+#container-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.redes{
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    transition: 0.5s;
+}
+.redes i{
+    color: white;
+    font-size: 40px;
+}
+.redes:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}

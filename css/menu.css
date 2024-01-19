@@ -1,4 +1,4 @@
-header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,18 +6,20 @@ header{
     padding: 0 100px;
     color: white;
     height: 80px;
-    width: 100%;
-    position: fixed
+    position: sticky;
+    top: 0;
 }
 .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
 }
 .logo::before{
-    content: '< ';
+    content: '<';
     color: red;
 }
 .logo::after{
-    content: ' />';
+    content: '/>';
     color: red;
 }
 #links{
@@ -26,7 +28,7 @@ header{
 }
 #links li{
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 #links a{
     color: white;
@@ -34,4 +36,8 @@ header{
 }
 #links a:hover{
     color: red;
+}
+#menu-bar{
+    display: none;
+    font-size: 30px;
 }
