@@ -8,44 +8,50 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/fec0dd4499.js" crossorigin="anonymous"></script>
     <title>Portifólio</title>
 </head>
 <body>
+
     <header class="header">
         <a href="#home">
             <div class="logo">CS</div>
         </a>
-        <nav>
-            <ul id="links">
+        <nav id="container-menu">
+            <ul class="links" id="menu">
+                <li><a href="#about" class="link">Sobre</a></li>
+                <li><a href="#about" >Skills</a></li>
+                <li><a href="#projects" class="link">Projetos</a></li>
+                <li><a href="#contact" class="link">Contato</a></li>
+            </ul>
+        </nav>
+        <nav id="menu-bar" onclick="handleClick()">
+            <i class="fa-solid fa-bars" id="icone"></i>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container-mobile">
+            <ul class="links" id="menu-mobile">
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#about">Skills</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
-        </nav>
-        <nav id="menu-bar">
-            <i class="fa-solid fa-bars"></i>
-        </nav>
-    </header>
+        </div>
 
-    <main>
         <section id="home">
             <div class="profile">
-                    <span>Olá, Me chamo </span><br>
+                    <span>Olá, Me chamo </span>
                     <h1>Cristhian Silveira</h1>
-                    <span id="profission">Desenvolvedor Web</span><br>
-                    <a href="#contact"><button id="btn">FALE COMIGO</button></a>
+                    <span id="profession">Desenvolvedor Web</span><br>
+                    <a href="#contact"><button id="btn">Fale Comigo</button></a>
             </div>
             <img src="img/title.svg" alt="">
         </section>
-
-
-
-
 
         <section id="about">
             <div class="sobre">
@@ -83,10 +89,6 @@
             </div>
         </section>
 
-
-
-
-
         <section id="projects">
             <h2>Projetos</h2>
             <div id="container-projects">
@@ -123,7 +125,6 @@
             </div>
         </section>
 
-
         <section id="contact">
             <h2>Contato</h2>
             <div id="container-contacts">
@@ -146,14 +147,16 @@
                     </div>
                 </a>
             </div>
-
+            <div></div>
         </section>
 
-
-
+        <a href="#home" id="backToTop" title="Voltar ao Topo"><i class="fa-solid fa-arrow-up"></i></a>
     </main>
+
     <footer class="rodape">
         <span>Todos os direitos reservados 2024 | Cristhian Silveira</span>
     </footer>
+    
+    <script src="js/index.js"></script>
 </body>
 </html>
