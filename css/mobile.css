@@ -1,23 +1,43 @@
 @media (min-width: 0px) and (max-width: 768px){
     .header{
         padding: 0;
-        justify-content: space-around;
+        padding: 0 50px;
+    }
+    #container-menu{
+        display: none;
     }
     #menu-bar{
         display: block;
+        cursor: pointer;
     }
-    #links{
+
+    #container-mobile{
         display: none;
+        width: auto;
+        background-color: #121212;
+        padding: 20px;
+        position: sticky;
+        top: 80px;
+    }
+    #menu-mobile{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-mobile li{
+        font-size: 1.5rem;
     }
     
     #home{
         flex-direction: column;
         gap: 60px;
-        padding: 50px;
+        padding: 30px;
         height: auto;
     }
     .profile{
-        margin: auto;
+        font-size: 2.3rem;
     }
     
     #about, #container-contacts{

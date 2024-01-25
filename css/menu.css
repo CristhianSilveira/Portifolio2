@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #151515;
+    background-color: var(--cinza);
     padding: 0 100px;
     color: white;
     height: 80px;
@@ -12,32 +12,37 @@
 .logo{
     font-size: 2.5rem;
     font-weight: bold;
-    color: white;
+    color: var(--branco);
 }
 .logo::before{
     content: '<';
-    color: red;
+    color: var(--vermelho);
 }
 .logo::after{
     content: '/>';
-    color: red;
+    color: var(--vermelho);
 }
-#links{
+.links{
     display: flex;
     gap: 30px;
 }
-#links li{
+.links li{
     list-style: none;
     font-size: 1.5rem;
 }
-#links a{
-    color: white;
+.links a{
+    color: var(--branco);
     transition: color 0.8s;
+    padding-bottom: 10px;
+    transition: color 0.5s;
 }
-#links a:hover{
-    color: red;
+.links a:hover{
+    color: var(--vermelho);  
 }
 #menu-bar{
     display: none;
     font-size: 30px;
+}
+#container-mobile, #menu-mobile{
+    display: none;
 }

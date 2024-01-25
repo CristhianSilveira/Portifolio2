@@ -3,11 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --cinza: #151515;
+    --cinzaClaro: #212121;
+    --preto: #0D0D0D;
+    --vermelho: red;
+    --branco: white;
+}
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #0D0D0D;
+    background-color: var(--preto);
     font-family: 'DM Sans', sans-serif;
 }
 ul{
@@ -18,8 +25,8 @@ a{
     text-decoration: none;
 }
 h2{
-    color: red;
+    color: var(--vermelho);
 }
 p, span{
-    color: white;
+    color: var(--branco);
 }

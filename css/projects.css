@@ -21,7 +21,7 @@
     padding: 30px 20px;
     color: white;
     gap: 20px;
-    background-color: #212121;
+    background-color: var(--cinzaClaro);
 }
 .box-projects img{
     width: 100%;

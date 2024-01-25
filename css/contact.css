@@ -1,6 +1,6 @@
 #contact{
     padding: 60px 100px;
-    background-color: #141414;
+    background-color: var(--cinza);
     padding-bottom: 210px;
 }
 #contact h2{
@@ -20,15 +20,26 @@
     padding: 30px;
     color: white;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid var(--vermelho);
     transition: 0.5s;
 }
 .redes i{
-    color: white;
+    color: var(--branco);
     font-size: 40px;
 }
 .redes:hover{
-    background-color: red;
+    background-color: var(--vermelho);
     color: white;
     border: 1px solid white;
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background-color: var(--vermelho);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
 }

@@ -4,13 +4,11 @@
     align-items: flex-start;
     text-align: center;
     padding: 100px 0;
-    background-color: #141414;
+    background-color: var(--cinza);
     display: flex;
-    
 }
 #about h2{
     font-size: 3rem;
-    color: red;
     padding-bottom: 50px;
 }
 .sobre, .skils{
@@ -18,10 +16,9 @@
     padding: 40px;
 }
 .skils{
-    border-left: 1px solid white;
+    border-left: 1px solid var(--branco);
 }
 .sobre p{
-    color: white;
     text-align: justify;
     font-size: 1.4rem;
 }
@@ -38,12 +35,9 @@
     gap: 20px;
     padding: 40px;
     width: 150px;
-    border: 1px solid red;
+    border: 1px solid var(--vermelho);
 }
 .box-skils i{
     font-size: 50px;
-    color: red;
-}
-.box-skils span{
-    color: white;
+    color: var(--vermelho);
 }
